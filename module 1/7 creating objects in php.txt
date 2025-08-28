@@ -1,0 +1,9 @@
+In older PHP, programmers often used arrays as data structures, with keys like full name, given name, and family name. Extra functions were needed to handle the different ways of printing names.
+
+Object-Oriented Programming improves this by allowing us to define a class as a template. A class contains attributes, such as full name, given name, family name, and room, as well as methods like get name.
+
+When we create objects from the class, each object has its own data. The special keyword "this" refers to the current object in use, so the method works correctly for each instance.
+
+For example, we can create one Person object for Chuck with a full name, and another Person object for Colleen with a given name and family name. The same method, get name, will return the right result for each, because "this" points to the correct data.
+
+The key lesson is simple: classes are blueprints, objects store unique data, and "this" makes sure each method uses the right object.
