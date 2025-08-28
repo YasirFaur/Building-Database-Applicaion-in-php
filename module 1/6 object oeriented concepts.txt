@@ -1,0 +1,25 @@
+This lecture is about Object-Oriented Programming, OOP, in PHP.
+
+In old PHP versions, there were only many functions like date add and date create. This was not well organized.
+Starting from PHP 5, and now in PHP 7, PHP became much better with OOP.
+
+The main idea of OOP is simple.
+A program has data, like variables and arrays, and code, like loops and functions.
+OOP puts data and code together inside a box called an Object.
+Each object has its own data and code. This makes programs easier to organize. This idea is called encapsulation.
+
+Important words:
+Class is like a template or a cookie cutter.
+Object or Instance is the real cookie, made from the template.
+Method is a function inside an object.
+Attribute is a variable inside an object.
+
+So, OOP is about using templates, called Classes, to create many objects that share the same code but can have different data.
+
+Key terms to remember:
+
+1. Class = Template or Blueprint
+2. Object, Instance = Real thing created from a class
+3. Method = Function inside a class
+4. Attribute = Variable inside a class
+5. new = Command to create a new object

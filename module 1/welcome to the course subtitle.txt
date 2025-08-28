@@ -1,0 +1,42 @@
+Welcome to building database
+applications in PHP. If you have completed the first
+two courses in this sequence, congratulations and welcome. They're essential. Now, as you work through
+those two courses, you're probably like does this make sense,
+why are we doing all of this? Well, this is the course where your
+patience is going to be rewarded. Because we're going to take all
+the things, learn this, learn that, learn this, those are all kind of like
+Lego blocks that we put together. And now we're going to build this
+foundation, and then build on top of it. So this is the time we're going to
+bring all those concepts together. Now, the course does start quickly,
+because we assume you know everything in those first two classes, HTML,
+CSS, SQL, the basics of PHP. And you've got your
+development environment up, and you know how to write code. I mean if you don't know any of that, you
+really need to go back to those classes, because we're not going to slow down. We're going to be like, we're not teaching
+PHP, we're like object running to PHP. We're moving quickly. So if you're ready, that's what you want. It's time to get to work and start
+building really good applications and make them real and make them complete. So if that first thing seems weird, just
+go back and take the other classes, right? So we just want you to know everything
+before you start the course. Once we get started, we're going to
+move very quickly through how we develop database applications and
+sophisticated web features. So we're going to learn things that are so
+essential, like cookies, and HTTP headers, and sessions, and how to log in,
+and how to log out. That's the kind of stuff that
+we really need to learn. And there's so much in this class that
+even if you're not going to use PHP ultimately, whether it's Ruby On Rails, or
+Java, or Node or whatever, you still need to know about sessions and HTTP headers
+and request response cycle, etc., etc. So this is the moment where he's just
+stopped learning like programming languages and really start
+learning about web applications. And so we finish in this class with CRUD. We have sort of slowly but
+surely built an application. We learned more about how
+applications are put together. We're connecting PHP and SQL. And then we're sort of done when we create
+what is sort of the basic essential web application, the CRUD application,
+Create, Read, Update, and Delete. Those are the four things
+that databases do. We'll build a user interface to
+do each of those four things. And then from that point on all of
+the web applications that you develop are going to be variations on that theme,
+right? So this is the moment,
+at the end of this class is the moment where you're like now
+you're a web developer. And the rest of this is just details
+about what language you are using and what features. And so, I'm really excited
+that you got this far, but I'm also even more excited when
+you get done in this class. So again, thanks for interest in
+the class, and we'll see you on the net.

@@ -1,0 +1,26 @@
+Welcome to the course *Building Database Applications in PHP*.
+If you already finished the first two courses (HTML, CSS, SQL, and PHP basics), good job. Those courses were important to prepare you.
+
+In this course, we will use everything you learned before, like small Lego blocks, and put them together. Now we start building real applications.
+
+This course moves quickly. We will not teach basic PHP again. We expect you to already know how to code, use a development environment, and understand the basics. If you don’t, you should go back and study the earlier classes.
+
+Here, you will learn important things about web applications:
+
+1. Cookies
+2. HTTP headers
+3. Sessions
+4. Login and logout
+
+These concepts are important for every web developer, not only for PHP. You will need them also if you use Node, Java, or other technologies.
+
+At the end of this course, we will build a CRUD application:
+
+1. Create
+2. Read
+3. Update
+4. Delete
+
+This is the basic model of all web applications. After finishing, you can call yourself a web developer. From this point, every web application you build will be a variation of CRUD.
+
+The teacher is very excited to see you complete this course, because this is the step where you stop learning only programming languages and start learning how to build real, complete web applications.
