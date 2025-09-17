@@ -1,0 +1,9 @@
+Welcome to Building Database Applications in PHP
+
+Hello and welcome! If you finished the first two courses, congratulations. They are important because you need to know HTML, CSS, SQL, and basic PHP.
+
+In this course, we will use what you learned before. All the small lessons you studied are like Lego blocks. Now, we will put them together to build real web applications.
+
+You will learn important things like cookies, sessions, HTTP headers, logging in, and logging out. We will connect PHP to a database and make a complete application. At the end, you will create a CRUD application. CRUD means Create, Read, Update, and Delete data. You will also make a simple interface for these actions.
+
+The course is fast, so you must know the basics. Even if you use another language later, learning about sessions and HTTP headers is very useful. By the end, you will understand web applications and be ready to make your own.

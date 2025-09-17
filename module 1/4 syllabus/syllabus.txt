@@ -1,0 +1,14 @@
+Course Overview
+Welcome to Building Database Applications in PHP! In this course, you will learn how to use PHP and MySQL to make database applications. You will study PDO, SQL commands, cookies, and sessions. You will learn how to log in users and show messages in your web applications. At the end, you will build a complete application to Create, Read, Update, and Delete data.
+
+Participation
+You can learn at your own speed. Be curious and try to understand the lessons. Read what others write and share your ideas. Always be respectful and positive in discussions. Difficult topics may appear, but try to learn from them.
+
+Academic Honesty
+Do your own work. Do not copy from others or use AI tools unless the teacher says it is allowed. Do not share solutions with classmates or online.
+
+Course Support
+Ask questions and share ideas in the course forums. Use the help center for technical problems.
+
+Accessibility and Respect
+Everyone is welcome. We want a safe and fair learning environment. Report any problems if you need help.

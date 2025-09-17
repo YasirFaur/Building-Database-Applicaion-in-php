@@ -1,0 +1,7 @@
+Introduction to Object-Oriented Programming (OOP)
+
+Welcome to Object-Oriented Programming in PHP! OOP is a way to organize code and data together. Instead of one big program, we use objects. An object has data (attributes) and code (methods). A class is a template to make objects, like a cookie cutter makes cookies. Each object can have different values but uses the same class.
+
+PHP introduced OOP in version 5. Old PHP used global functions, but OOP makes code cleaner and easier to understand. You can make new objects using new. For example, the DateTime class makes date objects. Each object has its own data and methods. You can call a method using the arrow -> symbol, like $now->format().
+
+OOP is important because it helps organize complex programs. You will learn terms like class, object, instance, method, and attribute. Using objects, you can build advanced applications more clearly and share your code easily.

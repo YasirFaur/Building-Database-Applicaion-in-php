@@ -1,0 +1,9 @@
+This course uses an open and free textbook titled, "
+The Missing Link: An Introduction to Web Development and Programming
+".
+
+Please utilize the 
+Resources
+ section for downloadable slides, web links, and other resources by module.
+
+https://www.coursera.org/learn/database-applications-php/resources/tyIEU

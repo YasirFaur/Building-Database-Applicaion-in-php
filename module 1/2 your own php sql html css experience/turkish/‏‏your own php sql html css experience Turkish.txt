@@ -1,0 +1,14 @@
+Elektronikten Web Tabanlı IoT Projelerine Yolculuğum
+
+Ben web geliştirici olmak için HTML, CSS, JavaScript ve PHP öğrenmedim. Bu dilleri, gömülü sistemler ve IoT projeleri yapmak için öğrendim.
+
+Yolculuğum ESP32 ile başladı. Cep telefonumdan bir kontrol ve izleme sistemi yapmak istedim. Bir cihaz Wi-Fi ile projeme bağlandığında, o cihazda bir kullanıcı arayüzü göstermem gerekiyordu. Bu, C diliyle birlikte HTML, CSS ve JS kullandığım ilk deneyimdi.
+
+Bu dilleri öğrenmek için Arapça ve İngilizce kaynaklar kullandım. En çok Coursera bana yardımcı oldu. Tüm kodları kendim yazarak ilk kişisel web sitemi yaptım:
+[https://yasirfaur.github.io/EmbeddedSystemsWebsite/](https://yasirfaur.github.io/EmbeddedSystemsWebsite/)
+
+Coursera’daki projem “Herkes İçin Web Tasarımı” kursunun bir parçasıydı. Daha sonra PHP öğrendim. Bu bilgi bana veritabanı yönetmeyi öğretti. Ayrıca ESP32’nin nasıl sunucu, istemci veya erişim noktası olarak çalıştığını daha iyi anladım.
+
+Ben elektronik öğrenen eski nesildenim. Bir gün web kodu yazacağımı hiç düşünmedim. Ama elektroniği web geliştirme ile birleştirmek bana çok şey kattı. Böylece kullanıcılarla doğrudan iletişim kuran ve zaman ile mekân sınırlarını aşan IoT projeleri yapabildim.
+
+Yasir | Gaziantep – 06 Eylül 2025
