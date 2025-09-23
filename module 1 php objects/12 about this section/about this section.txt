@@ -1,0 +1,6 @@
+About This Section
+The materials in this section were first shown in Course 1 of this Specialization: Building Web Applications in PHP.
+
+If you have already finished Course 1, you can skip this section.
+
+If you have not finished Course 1, it is good to look at these materials. They show you how to set up your development environment. You need this setup to do the assignments in this course.

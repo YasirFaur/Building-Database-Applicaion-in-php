@@ -1,0 +1,44 @@
+1. CREAT DATABASE misc;
+2. CREATE USER 'fred'@'localhost' IDENTIFIED BY 'zap';
+3. GRANT ALL ON misc.* TO 'fred'@'localhost';
+4. FLUSH PRIVILEGES;
+
+5. CREATE TABLE users (
+    user_id integer not null AUTO_INCREMENT PRIMARY key,
+    name varchar(128),
+    email varchar(128),
+               password varchar(128),
+    INDEX(email)
+)
+engine=INNODB charset=utf8;
+
+When we used this query:
+
+GRANT all on misc.* TO 'fred'@'localhost' identified by 'zap';
+
+
+we got this warning:
+
+Warning: #1287 Using GRANT statement to modify existing user's properties other than privileges is deprecated and will be removed in future release. Use ALTER USER statement for this operation.
+
+
+This means the query we used is deprecated (old and not recommended).
+
+We should create a user with this query:
+
+CREATE USER 'fred'@'localhost' IDENTIFIED BY 'zap';
+
+
+If the user already exists and we want to change the password, we use this query:
+
+ALTER USER 'fred'@'localhost' IDENTIFIED BY 'zap';
+
+
+To give permissions, we use this query:
+
+GRANT ALL ON misc.* TO 'fred'@'localhost';
+
+
+Then we must run:
+
+FLUSH PRIVILEGES;

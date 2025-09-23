@@ -1,0 +1,5 @@
+n this lecture, we learn how to connect PHP with SQL to build real web applications. Before, we used PHPMyAdmin to send SQL commands directly to the database. Now, we write PHP code that connects to the database, sends SQL (like select, insert, update, delete), and then gets results back. The results are called a “record set,” and PHP can read them and show them as HTML on the page.
+
+In older PHP (version 4), people used simple functions like mysql_, but they had many limits and could only connect to one database at a time. Later, PHP 5 introduced object-oriented programming for databases. There were two new options: MySQLi, which was object-oriented but only worked with MySQL, and PDO (Portable Data Objects), which works with many databases. PDO became the best choice because it is flexible, modern, and easier to use.
+
+The main job of PHP is to send SQL safely, get the records, and return only the right information to the user. In this course, we will focus on using PDO.

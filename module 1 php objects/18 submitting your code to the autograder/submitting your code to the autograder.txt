@@ -1,0 +1,4 @@
+Submitting Your Code to the Autograder
+Some autograders need to check your application over the Internet. Your computer usually blocks incoming connections with a firewall. To allow this safely, you can use NGrok. NGrok makes a temporary tunnel through your firewall so the autograder can reach your local server.
+
+We provide guides and videos for using NGrok on Mac and Windows 10. If you can put your app online with a real domain, you do not need NGrok.

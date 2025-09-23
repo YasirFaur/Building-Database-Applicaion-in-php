@@ -1,0 +1,95 @@
+Hello, everybody. Welcome to Web Applications for Everybody. Today we're going to show how
+to install MAMP for Windows. So I'm going to download it here. And then on Windows, so
+it takes me straight to the download. I'm just going to say I'll go ahead and
+run. [SOUND] Now, it's going to go ahead and
+run the application. I'm going to say yes. English. Next. I'm not going to install MAMP Pro. That's nice that they
+give us that checkbox. So, you can pay for MAMP Pro. I don't exactly know. I've never used it. So, I don't know. Accept license agreement. Put it in MAMP. Next. Next. Desktop icon. Let's go ahead and run it. [MUSIC] Okay. So now we're going to continue. Yeah, MAMP. We should also have this on our desktop. So it's coming up. So this is very important, you've got to
+allow this to happen because if you don't. Well, let's check them both so
+that MySQL can talk. Now this is httpd and
+I'm going to say yes to both of those. And that's very, very important. And now that they're up and so
+we can open the Start page. And there we go, and
+you can take a look at PHP info. And then you can look at phpMyAdmin and
+literally at this point, if you got something coming
+up here in phpMyAdmin, you have successfully installed MAMP. So congratulations. [MUSIC] Hello, and welcome to Web Applications for
+Everybody. Now we're going to install Atom,
+the text editor. You literally could do any text editor. I use Atom because I like it. It works on Windows,
+Mac and Linux the same way. But literally,
+you can use any text editor that you like. Don't use Notepad or Word. Certainly don't use Word, because if you
+use Word, it'll mess your files up, okay? We really need a text editor with syntax
+highlighting and things like that. So it's finished downloading and
+it's getting ready to install it. [MUSIC] All right, we're going to write right
+now our first PHP application, so I'm going to go ahead and
+get Atom started. And I'm going to get MAMP started. So Mamp, I am going to have
+to start these servers, and let's start the Apache server and
+our database server, MySQL. So we'll get that started. So let's open the start page, because there's a lot of good
+information we can get here. We can find about our PHP configuration,
+and my favorite thing to do
+is to run phpMyAdmin. because literally, phpMyAdmin is running and you come up
+with something that looks like this. You are in really good shape,
+everything is running fine. The database servers is running and
+php is running, so I'll get rid of this. So what we're going to do is we're
+going to write our first application, and so I'll have Atom here, and so
+I'm going to do file, new file. Now I'm going to call this h1, Hello from a Web Page/h1. And now what I'm going to do is
+I'm going to save this file. Save. And I'm going to go to a file called /C,
+MAMP, htdocs. I've pinned it here to make
+my job a little easier. I found it once,
+drug it over here and pinned it. So I can get right here. Now, this is the web document root for your web server, and
+you can make folders here. So I'm going to make a new folder. I'm going to call this folder, first. Make that folder and I'm going to
+save this file call it as index.php. Index.php is a special name,
+it's a file that if you navigate a web browser to the directory,
+it will generally serve index.php. Now, syntax highlighted this for
+us because it's showing this. Now, the way it works is I can go
+anywhere from local host on down, to the folder that I just made,
+to the file I just made, index.php. And so,
+we see that C:\MAMP\htdocs is the top of a web folder structure that
+started from localhost on down, okay? And so this is just an HTML page. We've seen it, we can view source. This HTML page came from PHP. Now, so far, we haven't actually
+run any code on this PHP. So, let's go ahead and write some code. So and show you how PHP can run code. So, there's a tag called >?PHP. And then a tag, that's ?> and
+it's already added that for me. And I can run code in here. So I can say something like echo, Hi there\n; and I'm going to save this. And I'm going to run this code. Run it again. And so there we go, says hi there. Let me put a space in here. So this is code and basically what happens,
+now let me put a paragraph tag in here. Put a paragraph tag some HTML,
+put an end paragraph. Something else. And so what happens in PHP is, when you
+drop into the PHP language on the server, it switches from just rendering
+this HTML to running code. But then, in place of this,
+we get the string high there. So let me save that. And hit refresh again. And so this bit came from
+the executing code that ran here. And so inside this code,
+we can put in some logics, so we can say $x = 6 * 7,
+to make a variable, and then we can say echo, The answer. Is, now,
+the double quote was already there, sorry. \n to put a new line in. So I'm going to save that. And now I'm going to hit refresh. So, looks like it didn't quite work. Well, I gotta concatenate this with a dot. No, this is supposed to be an x,
+that's why I made a mistake. File, Save. Refresh, okay. So, you you see this came, Hi there. All this stuff came from
+the executing code. So you can think of all this output
+as the result of executing this code, and anything that is printed out during
+this code is put out as the webpage. And so, that's kind of the idea, you put
+files and folders inside of this htdocs, and then you execute them by
+running them in a browser. [MUSIC] Okay, so, we have one last thing we're
+going to do, and it's a really, really, really important thing. As a matter of fact, I make it
+an assignment I think it's so important. So we just finished writing
+our first web application. Now, let's go ahead and
+make a syntax in this application. Make a syntax error and
+we're going to make all kinds of mistakes. So I'm missing a semicolon there. So I come up here and I refresh it. And what happens here is we get an error. Now, I just put the error in so
+you kind of know what the error was. But the question is, what if this was
+like hundreds of lines of code and you had to figure out what's going on. Okay? So, let's take a look. There is a setting. It turns out that printing errors on
+the screen is great for developers, but it's really bad for production systems. And so they default these systems when
+they install them to not turning on, not showing errors. So we have to find out
+how to change the errors. So we're going to go to that start page,
+and then go to phpinfo. And we're going to look at the loaded
+configuration that's right here, C:\MAMPconfigphp7.1.5. You gotta remember this perfectly,
+7.1.5, okay? So let's open that file. File, Open File. We're going to go to MAMP and
+keep going back and forth. That's in configuration. No, I think it's in, gotta keep
+going back, conf, php7.1.5, okay. Conf. Php7.1.5, this file right here is the file we're going to open,
+and here we are. Now you're going to search down for
+a field named, display errors. So let's just scroll down here. Display errors, I'll find it. So it's turned off by default, because
+it's a security, let's now find that one. Think I found it. Okay, display errors off. So we're going to change this to on. And my little display start
+up here is to on too. So there we go. So it's still going to log the errors, we'll talk a lot here about
+where these logs are at. But now, I am going to save this file. So I've changed that and
+then I am going to stop servers. You don't have to stop the servers
+very often, but in this case, we have to stop the servers because we've
+changed the basic server configuration. So this will take a moment. So they're stopped. Now let's start them. So they're coming up. The Apache server is up. And the MySQL server is up. And now, we can just refresh this page. Okay, so we can go down and we can
+look at where the display errors are. Okay, display error is on. Startup error is on,
+that's what we want to see. Okay? Now, that we've got these,
+when we hit this, instead of giving us a very nondescript,
+kind of not very helpful. It's going to say,
+parse error on line 6, unexpected echo. So now I can go back to my code here,
+close that and go like, line 6, it was not expecting echo. So let's put the semicolon back in and
+save it. Now we can hit refresh and it works, okay? So make sure to fix these. And do it early. You will waste hours and hours, and hours if you are just getting those
+500 errors while you're writing your code. So please do this and do it early,
+just to keep your sanity. So that when you make mistakes, that you
+get some feedback as to what went wrong. [MUSIC]

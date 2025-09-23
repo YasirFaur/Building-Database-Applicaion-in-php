@@ -1,0 +1,92 @@
+Hello and welcome to Web Applications for
+Everybody. In this, we're going to get started. We're going to learn a little bit
+about how to install XAMPP on Windows. I'm using Windows 10, and so I'm going to
+go to the Apache Friends' website. And let me make this a little bigger. They got a great video here,
+I won't show it right now. So I'm going to download XAMPP for
+Windows. So I'm going to click here to make
+sure the download gets started. Okay, so it's finished downloading, and
+we're going to go ahead, and run it. It's in the folder Downloads,
+if we wanted to take a look at that. So, I got my download running. Okay, so it says, install it, don't avoid into the program files because
+it said the thing to do is install in a default location which I
+will show you is C:\xampp. And I don't need a few of these things. I don't need Tomcat, I don't need Pearl, I don't need Fake SendMail,
+so I'm going to do that. I'm going to stick in that default
+which is a little inconvenient, but it's nice because it makes
+life a little simpler. Okay, so this will take a little while. So now that the installer is finished, I'm actually not going to start the
+Control Panel right away because I want to show you how to start it
+in case you don't do this. Although, you can just skip ahead and
+do that. So I'm going to finish the install,
+so the install is now complete. So I'm going to show you
+where it's been installed to. So I'm going to go up to my
+Windows browser, my local system, go to my C drive, and go into xampp. And so I'm in Windows C:\xampp,
+and this is where it's installed. And if I scroll down here, I can find the
+XAMPP Control Panel, and I'll start that. Oops. It's asking me for which language. Now, when this first starts up,
+it's important if you're being given any security dialogues, that you say
+yes to those security dialogues. It's a little tricky so,
+this is the control panel. And the things we're doing is the web
+server, which is Apache and MySQL. So I'm going to start those. Let me do one thing here. I'm going to right-click,
+and pin this to the taskbar. So now this will stay down here, okay? So I'm going to start
+the Apache web server. Now watch for red mistakes, or
+watch for pop-ups, and it's good. So, I got no red errors, and I think it's because I'm running
+on my administrator account. I'm going to start the web server for,
+I mean, the database server, and that's running, and so that's really good. You may have some other trouble, I clicked the Stop by mistake. I gotta not hover over them and
+then, okay, so there we go,
+I gotta get them both started. Okay, so now that they're both started,
+I can take a look at the details. And now this is the XAMPP dashboard,
+it's running on localhost that means it's running on a web
+server that's running on my computer. And a couple of things that we can do is
+we can look at the details of our PHP installation. That's nice to have,
+we'll look at that in a second. You can also look at phpMyAdmin. And this is how we talk to our database. And so, the fact that this is running,
+and successfully connecting, it doesn't getting error messages that means we've
+got a very successful installation. This screen here test
+a whole bunch of things. Okay, so one of the things that
+we need to make sure is look for a variable called display_errors. So let's go find that right here,
+and it's on. If it's off, you have to change
+the configurations, so it's on. So let me show you how
+you would change it. Even though XAMPP seems to
+install with this the right way, we'll see in a second, this is something
+you want off in production and on when your doing development
+to keep you from going crazy. So, you go to this configuration for
+Apache, and you pick the PHP configuration. And then you scroll down,
+I'm going to use Ctrl+F to find it, display_errors, Find Next. And I'll go down here
+until we find it to be on. Now this is exactly describing
+what's supposed to be on. For developers, you want this on,
+and production, you want it off. If we were going to change this, and
+there's a display_startup_errors as well. We would save this, we can save it,
+oops come back, come back. We would save this, okay? And then we have to restart
+our Apache web server. So we stop it, and
+then it would start it back up. And then when we come
+back to the Admin page, and then we go to PHPInfo,
+and then we look for display_errors, and we see that it's on. So, you shouldn't do
+development until that's on. Now we didn't really have to change it,
+but I showed you how to change
+it if it was wrong, okay? So close some of these windows. We don't need the web page for
+downloading anymore. So now we're looking at the dashboard. And so, what I want to do is I want to
+write a very, very simple program. So I'm going to start up my Atom text
+editor, which I assume you've installed, you can use any text editor you like. I just like Atom because it works
+the same on Windows, Mac, and Linux. So, I'm going to make a New File. And I'm going to put some HTML into it. And now I'm save the file, File > Save As. Now I have to put this file
+in a particular location, on my C drive > xampp > htdocs. And so this is all the stuff that
+this local web server, C:\xampp, Right, C:\xampp\htdocs. So what I'm going to do is, I'm going to make a New Folder right here,
+I'm going to call that folder first. Now, you'll be making
+lots of folders in here. And then,
+I'm going to save this file as index.php. So in the folder, htdocs\first\index.php,
+I've got Hello World. Now, I can go over here to this url, and take off dashboard, and
+type first/index.php. If I get this right,
+I should see that little file, okay? And so, there we go,
+now I have created my first little bit of web code that's
+coming out through this web server. And so what I want to do now is,
+I want to grab some of the code that's got some PHP in it
+just to test, not that it's a big deal. I got a little PHP in this handout,
+that's the old handout that I'm fixing. Here's this PHP code,
+I'm going to copy that, and I'm going here, and
+I'm going to, there you go. Paste that in, oops, we need to paste,
+Ctrl+A, Ctrl+V, there we go. And it knows it's PHP, and
+it's got syntax highlighting. This is flat HTML,
+this is switching into PHP and doing some computations,
+doing a printout, and the way we go. And so now,
+I'm going to save this with Ctrl+S. You always know when that little
+blue dot there is you gotta save it, or it won't save correctly. So now, I go back to my browser here, and
+I hit Refresh, and it will run that code. And so this part was from the HTML,
+this part is running PHP calculation, and there is another paragraph. So, I hope this has been helpful. To get this installed,
+you'll be doing a whole bunch with this, you'll be building databases,
+you'll be writing PHP code. And so, we just have to get you going,
+and get you up and running. Cheers.

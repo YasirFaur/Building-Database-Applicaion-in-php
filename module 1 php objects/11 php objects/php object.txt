@@ -1,0 +1,98 @@
+Question 1
+In Object Oriented programming, what is another name for the "attributes" of an object?
+
+	messages
+
+	>>fields
+
+	forms
+
+	portions
+
+	methods
+
+Question 2
+At the moment of creation of a new object, PHP looks at the _________ definition to define the structure and capabilities of the newly created object
+
+	instance
+
+	cache
+
+	constructor
+
+	>>class
+
+	method
+
+Question 3
+Which of the following is not a good synonym for 'class' in PHP?
+
+	template
+
+	blueprint
+
+	pattern
+
+	>>direction
+
+
+What does the following code accomplish:
+$now = new DateTime();
+
+	Clear out all the data in the DateTime variable and put the old values for the data 		in $now
+
+	>>Using the DateTime template make a new object and assign it to $now
+
+	Copy the value from the DateTime variable to the variable $now
+
+	Subtract the value of the new variable from the value in the DateTime variable and 	put the difference in $now
+
+Question 5
+What is the syntax to look up the fullname attribute in an object stored in the variable 	$colleen
+
+	$colleen.$fullname
+
+	$colleen->$fullname
+
+	>>$colleen->fullname
+
+	$colleen::fullname
+
+	$colleen["fullname"]
+
+Question 6
+Which of these statements is used to indicate that class A will inherit all the features of class B.
+
+	A=B++
+
+	class A inherits B
+
+	A->features = B->features
+
+	class A instanceOf B
+
+	>>class A extends B
+
+Question 7
+Which of the class member visibility settings indicates that a member variable can be accessed within a class and all sub-classes but not outside of the class.
+
+	subclass
+
+	public
+
+	limited
+
+	>>protected
+
+	private
+
+Question 8
+What does the "::" operator do in PHP?
+
+	Allows us to access private methods of a class from outside of the class
+
+	>>Allows us to access constants and static items from a class
+
+	Allows us to inherit information from one class to another
+
+	Allows us to access member functions from an object

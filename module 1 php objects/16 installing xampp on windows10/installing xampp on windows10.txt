@@ -1,0 +1,5 @@
+In this lecture, we learn how to install XAMPP on Windows 10. First, we go to the Apache Friends website and download XAMPP. We install it in the default location, C:\xampp, and skip unnecessary components like Tomcat or Perl. After installation, we open the XAMPP Control Panel. We start the Apache web server and MySQL database server. If there are security pop-ups, we click yes. When both servers run without errors, we check the dashboard, PHP info, and phpMyAdmin to make sure everything works.
+
+Next, we check that display_errors is on in the PHP configuration. This helps us see errors during development. If needed, we can edit php.ini, save changes, and restart Apache.
+
+Finally, we write our first web page using Atom. We save it in C:\xampp\htdocs\first\index.php. We write HTML and PHP code and refresh the browser to see the result. PHP runs code and shows the output on the web page. Now XAMPP is ready, and we can start building databases and web applications.

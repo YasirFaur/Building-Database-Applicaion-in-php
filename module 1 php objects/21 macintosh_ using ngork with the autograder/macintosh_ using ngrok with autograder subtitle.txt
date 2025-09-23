@@ -1,0 +1,111 @@
+Hello and welcome to Web Applications for
+Everybody. Today we're going to learn
+a little bit about ngrok. ngrok is a way that we can get
+our assignments autograded, and perhaps you are in the lesson where we're doing this grading
+of the guessing game. We're grading the guessing game. We have to put some code here, and the
+problem here is that we have to have this code running on out laptop, because
+this server is on the real Internet and it can't talk to your laptop, and so
+what I've got is I've got some code running here, and
+that's in my Application/MAMP/htdocs/assn, sub guess, sub broken.php,
+and so, I'm running MAMP. So, that code right there is
+the same as what I am seeing here, and so if I type guess,
+you know I can say, guess =42. Well or I get missing guess parameter,
+and our guess=42. Yeah, I'm right. Okay, so the problem is if I just take
+this URL and I put it in the guessing game, I mean if I put it in the
+autograder, this autograder is running out there in the Internet somewhere and
+it can't connect to local host, because your local host is not also on
+the Internet, so we have to find a way. So this is going to blow up really badly,
+and it shows you something about the test. When things blow up,
+you start to look from the bottom up, and look for toggle, and
+this, it looks icky. You have to read it. This looks like it might be like a bug,
+but it's not, it is a, it can't connect to port 8888. Connection refused, this URL. But don't just assumed that
+the autograder's blown-up, sometimes the autograder like gets
+an error, and it shows you what it is, and it tried to retrieve your file and
+it couldn't. So something went wrong, okay? So that's the problem. We've gotta get to the point where
+we can't use this local host URL. But as I've said, there is this wonderful
+piece of software called Ngrok, and what Ngrok does basically
+is it makes it so that anyone on the real Internet
+can talk to you laptop. So over here, is where the server is. This is where your MAMP is. This is you and your, right? So you're running MAMP over here. MAMP over there, and
+this is the autograder right here. The autograder cannot
+talk to your local host. It can't do that, that doesn't work,
+but you can run a piece of software that effectively exports your local
+host to this place called ngrok.com and then the autograder can talk to that, and
+I'm going to show you how to do that. Now to get this to work,
+you gotta download some software. So let's do that. Let's go to Download. Now it's different from Mac,
+and different from Windows. So I'm going to download it, and it does,
+it's a pretty small piece of code, and I'm going to put this in,
+it's going to be in my downloads folder. Where's the downloads folder? There's the downloads folder,
+and it's a zip file. There might be different install
+processes for Windows, but you'll get a point here where
+you have this ngrok running. Okay, so we have this running on local
+host and we've downloaded ngrok. So what I've got to do is I've got to
+start a terminal window, or command prompt if you're on Windows, and I have to
+get myself in that terminal window. I have got to go into that
+downloads folder, and in Macintosh, it's user downloads, and I do an ls-l,
+and I can see that this ngrok is here, and this was the zip file, and
+I can start it by saying ./ngrok. It's important that I don't have to run
+ngrok in the same as where my code's at, because ngrok is basically forwarding
+port 8888, four eights, to the web. So I'm just going to say ./ngrok http,
+we're going to fake the http protocol, and local host, the 8888 port on this
+local host, and if all goes well, ngrok is going to wake up, and
+then it's going to tell you an address. Now the key to this is that this address
+is only going to work while this ngrok program is running. A program is running now and
+forwarding all these connections. So the thing to do, and you'll get a
+different one of these every time, and so, if I go here, and
+I go to ngrok.io, You will see exactly what happens if you
+go to local host 8888, see? All that stuff, and my assignments
+are sitting here in assignments. I can go to assignments, and
+I can go into the guest folder, and now I'm here,
+except this URL is a real URL. This is URL that can run
+anywhere on the Internet. This URL can only run on a browser that's running on my
+computer sitting at my local host. So now I can use this guess.php and
+I can turn this into The autograder, so I gotta go back and I gotta launch
+the autograder, and give it this URL. So now I'm going to say run this, this
+is a real URL anywhere on the Internet, including where this
+autograder is running from, because this autograder's really
+running somewhere on the Internet. So, what happens is, when I hit EVALUATE, We'll go back there, when I hit EVALUATE
+this is going to connect to ngrok, and ngrok is going to send
+data to your computer, and the request response
+cycle's going to come back. Now, interestingly if you watch
+you can see this happen here. As so you've seen I've already
+done some get requests, and there's actually a little monitor
+guy that I can put up over here, 127.0, that's another word to local host,
+and this is actually allows me to inspect
+the data that's going back and forth here. So my autogrator talks to ngrok, ngrok
+talks to your computer in a reverse way, and you're watching this data
+that's going back and forth, and that's what's going on here, and here. Okay, so both of these are talking. So I'll just leave this, let's make
+this a little more narrow now so you can kind of,
+lets put this maybe way over here, so you can see it, oops made too small,
+now it's not looking good, okay. Okay, we'll watch it over here. So now I am back where I'm
+going to do my evaluation. You can watch action happening over here. Now one of the things about this
+assignment, depending on who you are, it gives you a different number, so
+that's why you got to change this code. So I'm supposed to make 37 be my
+correct answer to get full credit. So I'm going to evaluate it,
+and you can see it's talking. See, it went talking. Didn't find 'Chuck
+Severance' in the title tag. Guess is too high, no. The key is, you're like what's wrong,
+look at the toggle, okay? So, it's like did not find 'Chuck
+Severance' in the title tag. Well, that's because of Charles Severance,
+okay. Looking for your guess is too high,
+it says your guess is too low. You see, it's always trying to
+tell you as much as it can. I'm not trying to make this tricky,
+and so the problem here is this code that I've got, that's guessed code,
+we got 42 as the right answer. So I can fix my program by making 37 be the right answer, 37, 37 save. Now I can rerun the text and I should pass
+that stuff, and these errors went away but Chuck Severance is still not in
+the title text, so I change that. Chuck Severance, and
+I rerun the test, and I got passed. Okay, so there we go. Everything is good. I don't know what that internal error is. That's probably because I'm an instructor,
+yeah, but. So there you go. So that's the basic idea of how you run
+Ngrok, and the way you finish this, when you're all done with this,
+is you just hit Ctrl+C. So remember this, afa30 something. So I'm going to hit Ctrl+C, and
+now this URL ceases to work. All right, this one will blow up, because
+I'm not there on the other side, so it doesn't find it. If I run ngrok again I
+start the tunnel back up, but you will notice I will get
+a different number, 5eb something. So this address no longer works,
+but this one does. So you can start and
+stop Ngrok as many times as you want, but you sort of have to realize that
+every time you start and stop it, you're going to get a new,
+you're going to get a new address. Now, you can actually pay money to them to
+get permanent addresses, etc., etc, but as long as you know how to switch back and
+forth, and get the right address, it should not be difficult, whatsoever. Okay, and so there we go. I hope this has helped you
+understand how to use ngrok so that you can send your
+assignments from your laptop web server all the way to
+the autograder on the Internet. [MUSIC]

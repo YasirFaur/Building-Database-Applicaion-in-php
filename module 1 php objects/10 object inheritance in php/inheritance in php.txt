@@ -1,0 +1,5 @@
+In this lecture, we learned about inheritance in PHP. Inheritance allows a class to reuse code from another class. The original class is called the parent, and the new class is the child or subclass. The child class uses extends to include all the parent’s code and can add new functions. This helps avoid repeating code.
+
+We also learned about visibility of class variables and methods. There are three types: public, protected, and private. Public variables can be used inside and outside the class, and in child classes. Protected variables can be used inside the class and in child classes, but not outside. Private variables can only be used inside the class itself.
+
+Finally, PHP allows dynamic classes, which are empty templates to which we can add variables at runtime. This is less common but sometimes useful. The lecture explained that object-oriented programming takes time to learn, and these concepts help us prepare for more complex programming problems.

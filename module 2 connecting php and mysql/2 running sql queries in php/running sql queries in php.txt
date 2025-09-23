@@ -1,0 +1,7 @@
+In this lesson we learn how to insert data into a database using PHP and SQL. First, we create a database and a user account with a password. We use the SQL commands CREATE DATABASE and GRANT to give permissions. Usually, we only allow connections from the same computer (localhost or 127.0.0.1) for security. This means PHP inside the laptop can talk to MySQL inside the laptop, but outside users cannot.
+
+Next, we create a table with fields like id, name, and email. We can insert data into this table, for example user information. Then, we use PHP code to connect to the database. This connection needs the database name, user, password, and port (often 3306, or 8889 on Mac with MAMP). If the connection fails, PHP gives an error.
+
+When the connection works, we can send SQL queries from PHP to the database. For example, SELECT * FROM users. PHP gets back records and we loop through them. We can print them as text or format them into HTML tables. PDO (Portable Data Objects) is the library we use in PHP to handle this connection.
+
+In short, PHP connects to MySQL, sends SQL commands, and shows the results in a nice format on the web page. This is the start of building dynamic web apps with databases.

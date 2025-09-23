@@ -1,0 +1,5 @@
+Using Ngrok to Submit Assignments
+
+When you run a web application on your computer, it uses localhost, which the Internet cannot see because of your firewall. The autograder is on the Internet, so it cannot access your local code directly. Ngrok solves this problem. Ngrok gives your local server a temporary public URL. You install Ngrok and run it from the terminal or command prompt. For example, you type ngrok http 8888 to connect your local server. Ngrok creates a temporary address that anyone, including the autograder, can use to access your code.
+
+You copy this Ngrok URL and submit it to the autograder. The autograder talks to your code through Ngrok, and you can see requests and responses. When finished, you stop Ngrok, and the URL stops working. Every time you start Ngrok, it gives a new address. This allows you to safely send your assignments from your laptop to the autograder on the Internet.

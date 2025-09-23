@@ -1,0 +1,2 @@
+Installing LAMP on Linux
+On Linux, software like MAMP or XAMPP is called LAMP. LAMP came first. To install it, search: “How to install LAMP on Ubuntu” (or your Linux version). You will find many guides. If we find good ones, we will list them here.

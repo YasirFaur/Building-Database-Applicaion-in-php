@@ -1,0 +1,5 @@
+In this video, we install MAMP on Windows and set up a text editor called Atom. First, we download MAMP, run the installer, accept the license, and skip MAMP Pro. We allow MAMP to communicate with the network so Apache and MySQL can run. Then we open the start page and check PHP info and phpMyAdmin. Next, we install Atom, a text editor that works well for writing PHP.
+
+We create our first PHP web page in MAMP → htdocs → first folder, saving it as index.php. We write HTML and PHP code using <?php ?> tags. Using echo, we display text and variables on the page. We also learn how PHP executes code and shows results in the browser.
+
+Finally, we edit the php.ini file to turn on display_errors and display_startup_errors. This helps show mistakes in code during development. We stop and restart MAMP to apply changes. Now errors are visible, making it easier to debug and learn PHP.

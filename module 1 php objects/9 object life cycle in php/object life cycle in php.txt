@@ -1,0 +1,5 @@
+This text talks about the life of objects in PHP. When we make an object from a class, PHP can run two special functions: __construct and __destruct. The constructor runs when the object starts. It gives first values to the variables. The destructor runs when the object ends. In PHP, destructors are used more than in some other languages because PHP knows when the request is finished.
+
+Each object has its own variables, even if it is from the same class. We can send information to the constructor when we create the object. For example, we can give a language code like “es”. Then the object can return “Hola” when we call the greet function. This makes the object special and not the same as others.
+
+The text also says that the next topic will be inheritance. This means one class can take code from another class and add new things.

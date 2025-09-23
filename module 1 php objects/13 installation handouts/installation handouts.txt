@@ -1,0 +1,17 @@
+Setting up PHP/MySQL
+
+Install a text editor.
+
+Install a PHP/MySQL program.
+
+Look at the program a little.
+
+Use the instructions for your computer:
+
+MAMP on Mac
+
+MAMP on Windows
+
+XAMPP on Windows
+
+You can choose any software. MAMP is easy. On Windows, if MAMP does not work, use XAMPP.
